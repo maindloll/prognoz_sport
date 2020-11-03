@@ -70,6 +70,7 @@ a{
 
 /*SECTION 1 */
 .section-welcome{
+	padding-top:80px;
 	padding-bottom: 130px;
 }
 .section-welcome_inner{
@@ -80,9 +81,9 @@ a{
 	width: 55%;
 }
 .section-welcome_left{
-	width: 45%;
+	width: 47%;
 	box-sizing: border-box;
-	padding-top: 115px;
+	padding-top: 100px;
 }
 .section-welcome_head{
 
@@ -280,7 +281,7 @@ padding: 20px;
 }
 .about-image{
 width: 20%;
-padding:0 13px;
+padding:0 8px;
 	word-break: break-all;
 	font-weight: 800;
 font-size: 22px;
