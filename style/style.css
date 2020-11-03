@@ -53,7 +53,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding:14px 0;
+	padding:10px 0;
 }
 .nav{
 	display: flex;
@@ -70,7 +70,7 @@ a{
 
 /*SECTION 1 */
 .section-welcome{
-	padding-bottom: 80px;
+	padding-bottom: 130px;
 }
 .section-welcome_inner{
 	display: flex;
@@ -142,7 +142,7 @@ color: #FFFFFF;
 	text-transform: uppercase;
 	position: relative;
 	text-align: center;
-	margin-top:40px;
+	margin-top:60px;
 }
 .see_tarif:after{
 	content: "";
@@ -506,4 +506,146 @@ position: relative;
 	text-align: center;
 	letter-spacing: -0.04em;
 	color: #9393AE;
+}
+.blocker{
+	z-index: 2 !important;
+}
+
+.modal.modal-content{
+	padding:20px;
+	max-width:750px;
+	background: #27273F;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 29px;
+}
+.modal-title{
+	display: flex;
+	justify-content: space-between;
+margin-bottom: 10px;
+align-items: center;
+}
+.modal-name{
+	width: 60%;
+	font-weight: bold;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.modal-coef{
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 43px;
+	/* identical to box height */
+	
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	
+	color: #FFFFFF;
+}
+.coef-prohod{
+	font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.04em;
+color: #9393AE;
+width: 22%;
+}
+.modal-info{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border-top:1px solid rgba(53, 53, 80, 1);
+	align-items: center;
+	padding:10px 0;
+}
+.modal-info .button_buy{
+	padding:10px 40px;
+	margin: 0;
+}
+.price, .prognoz{
+	font-weight: bold;
+font-size: 30px;
+line-height: 165.4%;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+}
+.modal a.close-modal {
+	background-image: url("../Images/close-modal.png") !important;
+	top: -32.5px !important;
+	right: -3.5px !important;
+}
+#buy-last .modal-name{
+	width: 36%;
+}
+.js-prognoz{
+	text-transform: unset;
+}
+.second-info{
+	flex-wrap: wrap;
+}
+.second-info p{
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+line-height: 27px;
+margin:0 0 10px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+}
+.js-new-price{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+font-size: 35px;
+line-height: 165.4%;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+}
+.modal-cards-inner{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(53, 53, 80, 1);
+	margin-bottom: 20px;
+}
+.card-modal{
+	width: calc(33% - 10px);
+	background: #303050;
+box-shadow: 0px 0px 8px rgba(255, 69, 101, 0.5);
+border-radius: 22px;
+display: flex;
+flex-direction: column;
+text-align: center;
+padding:10px;
+}
+.modal-img{
+	max-height: 62px;
+	margin-bottom: 10px;
+}
+.card-info{
+	font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+.modal-contact{
+	font-size: 24px;
+line-height: 159.4%;
+text-align: center;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+.modal-links{
+	display: flex;
+	justify-content: space-around;
+}
+.modal-links .telegramm{
+	margin-bottom: 0;
 }

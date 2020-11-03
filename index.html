@@ -66,7 +66,7 @@
                         </ul>
                         <div class="buy-inner">
                             <a href="#" class="statistik-link">Статистика</a>
-                            <a href="#" target="_blank" class="button_buy" title=""> Купить</a>
+                            <a href="#buy-first" target="_blank" class="button_buy" rel="modal:open" title=""> Купить</a>
                         </div>
                     </div>
                     <div class="card">
@@ -81,7 +81,7 @@
                         </ul>
                         <div class="buy-inner">
                             <a href="#" class="statistik-link">Статистика</a>
-                            <a href="#" target="_blank" class="button_buy" title=""> Купить</a>
+                            <a href="#buy-first" target="_blank" class="button_buy" rel="modal:open" title=""> Купить</a>
                         </div>
                     </div>
                     <div class="card">
@@ -96,7 +96,7 @@
                         </ul>
                         <div class="buy-inner">
                             <a href="#" class="statistik-link">Статистика</a>
-                            <a href="#" target="_blank" class="button_buy" title=""> Купить</a>
+                            <a href="#buy-first" target="_blank" class="button_buy" rel="modal:open" title=""> Купить</a>
                         </div>
                     </div>
                     <div class="card">
@@ -111,13 +111,79 @@
                         </ul>
                         <div class="buy-inner">
                             <a href="#" class="statistik-link">Статистика</a>
-                            <a href="#" target="_blank" class="button_buy" title=""> Купить</a>
+                            <a href="#buy-first" target="_blank" class="button_buy" rel="modal:open" title=""> Купить</a>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
+        <!-- MODAL -->
+
+        <div id="buy-first" class="modal modal-content">
+            <div class="modal-title">
+                <div class="modal-name">Conservative</div>
+                <span class="modal-coef">3.33</span>
+                <span class="coef-prohod">Коэффициент проходимости</span>
+            </div>
+            <div class="modal-info">
+                <span class="prognoz">1 прогноз</span>
+                <span class="price">1500</span>
+                <a href="#buy-last" rel="modal:open" class="button_buy">Купить</a>
+            </div>
+            <div class="modal-info">
+                <span class="prognoz">1 прогноз</span>
+                <span class="price">1500</span>
+                <a href="#buy-last" rel="modal:open" class="button_buy">Купить</a>
+            </div>
+            <div class="modal-info">
+                <span class="prognoz">1 прогноз</span>
+                <span class="price">1500</span>
+                <a href="#buy-last" rel="modal:open" class="button_buy">Купить</a>
+            </div>
+        </div>
+
+        <div id="buy-last" class="modal modal-content">
+            <div class="modal-title">
+                <div class="modal-name js-tarif">Conservative</div>
+                <div class="about-arrow">
+                    <img src="Images/arrow1.png" alt="">
+                </div>
+                <span class="modal-coef js-prognoz">5 прогнозов</span>
+            </div>
+            <div class="modal-info second-info">
+                <span class="js-new-price">1500</span>
+                <p>Кидайте деньги на карту, а там посмотрим</p>
+            </div>
+            <div class="modal-cards-inner">
+                <div class="card-modal">
+                    <div class="modal-img">
+                        <img src="Images/visa.png" alt="">
+                    </div>
+                    <span class="card-info">8456 1142 4475 9963</span>
+                </div>
+                <div class="card-modal">
+                    <div class="modal-img">
+                        <img src="Images/qiwi.png" alt="">
+                    </div>
+                    <span class="card-info">099-874-4523</span>
+                </div>
+                <div class="card-modal">
+                    <div class="modal-img">
+                        <img src="Images/yandex.png" alt="">
+                    </div>
+                    <span class="card-info">8456 1142 4475 9963</span>
+                </div>
+            </div>
+            <div class="modal-contact">
+                Любые вопросы вы можете задать нашему менеджеру в Telegram канале или в VK.
+            </div>
+            <div class="modal-links">
+                <a href="#" target="_blank" class="telegramm">Telegram</a>
+                <a href="#" target="_blank" class="vk">Вконтакте</a>
+            </div>
+        </div>
+        <!-- MODAL END -->
         <section class="about_us">
             <div class="container">
                 <div class="title red">
@@ -259,8 +325,9 @@
                 <span class="footer-text">©ProgNOZ 2020 Все права защищены</span>
             </div>
         </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
         <script src="Js/app.js"></script>
     </div>
 </body>
