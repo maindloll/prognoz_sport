@@ -1,0 +1,231 @@
+
+body {
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	line-height: 1.6;
+	color: white;
+	background: linear-gradient(198.45deg, #202559 0%, #202136 23.2%);
+	position: relative;
+	z-index: 1;
+}
+.page{
+	background-image: url("../Images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 2;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+a{
+	color:white;
+	text-decoration: none;
+
+}
+/*CONTAINER*/
+.container{
+	width: 100%;
+	max-width: 1230px;
+	padding:0 15px;
+	margin:0 auto;
+}
+.page{
+	overflow: hidden;
+}
+/*HEADER*/
+.header{
+	background: #24243A;
+	width: 100%;
+	z-index: 2;
+}
+.header_inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:14px 0;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.nav_link{
+	padding:0 10px;
+	transition: color 0.4s linear;
+	font-size: 20px;
+}
+.nav_link:hover{
+	color:#F5465D;
+}
+
+/*SECTION 1 */
+.section-welcome{
+	padding-bottom: 80px;
+}
+.section-welcome_inner{
+	display: flex;
+	width: 100%;
+}
+.section-welcome_right{
+	width: 55%;
+}
+.section-welcome_left{
+	width: 45%;
+	box-sizing: border-box;
+	padding-top: 115px;
+}
+.section-welcome_head{
+
+}
+.section-welcome_text_1 {
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: #F84765;
+}
+.section-welcome_text_2{
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 93px;
+	letter-spacing: -0.04em;
+	color: #FFFFFF
+}
+.section-welcome_text_3{
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: -0.04em;
+	color: #9393AE;
+	margin-bottom:20px;
+}
+.social_link{
+	width: 100%;
+	display: flex;
+	}
+.button_buy{
+	margin-right: 20px;
+	padding:15px 20px;
+	background: linear-gradient(111.92deg, #FB5423 14.35%, #D033BF 85.65%);
+	box-shadow: 0px 4px 30px rgba(236, 64, 121, 0.6);
+	border-radius: 112px;
+	font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+}
+.statistik{
+	-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	border-image:linear-gradient(111.92deg, #FB5423 14.35%, #D033BF 85.65%);
+	filter: drop-shadow(0px 4px 30px rgba(236, 64, 121, 0.6));
+	margin-right: 0;
+}
+.see_tarif{
+	background: linear-gradient(111.92deg, #FB5423 14.35%, #D033BF 85.65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	margin-top:40px;
+}
+.see_tarif:after{
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 22px;
+	background-image: url("../Images/arrow.png");
+	background-repeat: no-repeat;
+	bottom: -30px;
+	left: 50%;
+}
+
+/* CARDS INNER */
+.cards{
+	padding-bottom: 30px;
+}
+.cards_inner{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card{
+	display: flex;
+	width: calc(50% - 8px);
+	flex-direction: column;
+	padding: 15px 18px;
+	background: #27273F;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 29px;
+margin-bottom: 20px;
+}
+.card-title{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 43px;
+	letter-spacing: -0.04em;
+	color: #FFFFFF;
+}
+.js-name{
+text-transform: uppercase;
+}
+.info-inner{
+	padding: 0;
+	list-style: none;
+	margin-bottom: 28px;
+}
+.info{
+	position: relative;
+	font-size: 22px;
+	padding-left:40px;
+	line-height: 165.4%;
+	letter-spacing: -0.04em;
+	color: #9393AE;
+}
+.info:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top:8px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 4px solid #FF4565;
+	box-sizing: border-box;
+}
+.buy-inner{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.buy-inner .button_buy{
+	padding: 15px 61px;
+}
+.statistik-link{
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 165.4%;
+	position: relative;
+	letter-spacing: -0.04em;
+	color: #FFFFFF;
+	border-bottom:1px solid rgba(251, 84, 35, 1);
+}
