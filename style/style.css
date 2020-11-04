@@ -698,6 +698,10 @@ margin-bottom: 15px;
 	display: flex;
 	justify-content: space-around;
 }
-.modal-links .telegramm{
-	margin-bottom: 0;
+.modal-links .telegramm,.vk{
+	margin-bottom: 0;font-weight: bold;
+	font-size: 21px;
+	line-height: 32px;
+	letter-spacing: -0.04em;
+	color: #FFFFFF;
 }
